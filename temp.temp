@@ -1,0 +1,33 @@
+/*
+			context.fillRect(x,y,너비,높이);
+					strokeRect
+					
+					beginPath();
+					moveTo(x,y);//시작점
+					lineTo(x,y);//끝점
+					closePath();
+					stroke();
+					
+					beginPath();
+					arc(x,y,반지름,시작 각도, 종료각도Math.Pi*2, 반시계 방향);
+					closePath();
+					fill();
+					
+					fillStyle="rgb(255,0,0)";
+					strokeStyle="rgb(r,g,b)";
+					lineWidth=5;
+					globalAlpha=0.5;
+					
+					
+					fillText(text,x,y);
+					font="italic 30px serif";
+					
+					
+					clearRect(0,0,500,500);
+			*/
+			/*
+			translate(x,y);
+			scale(x,y);
+			rotate(pi);
+			
+			*/

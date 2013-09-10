@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>뭐하는 거일까?</title>
+	<!--스크립트는 밑으로 옮겨야지-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><!--ajax.googleapis.com-->
+	
+	<!--socket.io-->
+	<!--<script src="http://cdn.socket.io/stable/socket.io.js"></script>-->
+	<script src="http://localhost/socket.io/socket.io.js"></script>
+	
+	
+	<!--Insert analytics n adsense-->
+	<script src="noplaying.js"></script>
+	<script src="usesocketio.js"></script>
+	<script src="event.js"></script>
+	<script type="text/javascript">
+
+		
+
+		
+		
+	</script>
+	<link href="canvas.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+	<div id="gameIntro">
+	</div>
+	<div id="gameComplete">
+	</div>
+	<canvas id="myCanvas" width="500" height="500"><!--http://excanvas.sourceforge.net/-->
+	</canvas>
+	<audio id="gameSoundBackground" loop preload>
+		<source src="sounds/background.mp3">
+<!--		<source src="sounds/background.wav">-->
+		<source src="sounds/background.ogg">
+	</audio>
+	<!--
+	<form id="target" action="destination.html">
+	  <input id="myNickname" type="text" value="Hello there" />
+	  <input type="submit" value="Go" />
+	</form>
+	-->
+	<div id="chat" style="height: 200px; width: 200px; border: 1px solid grey;">
+<div id="chatlog" style="height: 178px; width: 200px; overflow-y: scroll;"></div>
+<input type="text" id="msgbox" style="margin-left: 2px; width: 193px;">
+</div>
+
+</body>
+</html>
+<!--
+cf.
+sinuousgame.com
+phoboslab.org/ztype/
+sketch-out.appspot.com
+
+-->
